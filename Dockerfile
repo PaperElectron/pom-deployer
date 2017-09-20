@@ -30,7 +30,7 @@ RUN rm /bin/sh \
 RUN mkdir $BUILD_ARTIFACTS \
     && chown -R $APPLICATION_USER:$APPLICATION_USER $BUILD_ARTIFACTS
 
-COPY scripts/projectArtifacts.sh /usr/local/bin/projectArtifacts
+COPY scripts/ /usr/local/bin
 
 VOLUME $BUILD_ARTIFACTS
 
