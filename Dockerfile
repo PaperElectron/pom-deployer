@@ -1,7 +1,7 @@
 FROM ubuntu:16.04
 
 ENV NVM_DIR="/usr/local/nvm" \
-    NODE_VERSION=6.11.3 \
+    NODE_VERSION=6.13.1 \
     APPLICATION_USER=pom \
     APPLICATION_HOME=/var/pom \
     BUILD_ARTIFACTS=/var/pom/.artifacts
